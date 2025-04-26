@@ -2,7 +2,7 @@
 Phát triển ứng dụng web với công nghệ .NET 
 # Nội dung học phần 
 #================================
-#lesson01:
+ - lesson01:
 Những kiến thức cơ bản cần thiết / Ứng dụng đầu tiên với Asp.NET Core MVC
 ◆ Giới thiệu về .NET Core
 ◆ Giới thiệu về ASP.NET Core
