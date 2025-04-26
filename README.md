@@ -4,12 +4,12 @@ Phát triển ứng dụng web với công nghệ .NET
 #================================
  - lesson01:
 Những kiến thức cơ bản cần thiết / Ứng dụng đầu tiên với Asp.NET Core MVC
-◆ Giới thiệu về .NET Core
-◆ Giới thiệu về ASP.NET Core
-◆ Cài đặt môi trường chạy
-◆ Tạo ứng dụng ASP.NET Core đầu tiên
-◆ Cấu trúc project
-◆ Tạo ứng dụng ASP.NET Core MVC với template
+- ◆ Giới thiệu về .NET Core
+- ◆ Giới thiệu về ASP.NET Core
+- ◆ Cài đặt môi trường chạy
+- ◆ Tạo ứng dụng ASP.NET Core đầu tiên
+- ◆ Cấu trúc project
+- ◆ Tạo ứng dụng ASP.NET Core MVC với template
 
 #================================
 
