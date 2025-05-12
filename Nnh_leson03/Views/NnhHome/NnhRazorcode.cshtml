@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewData["Title"] = "NnhRazorcode";
+}
+
+<h1>NnhRazorcode</h1>
+<hr />
+@{
+    var name = "Ngoc Hien";
+    var email = "ngochien@gamil.com";
+    int age = 20;
+}
+<div>
+    <h2>Hiển thị dữ liệu</h2>
+    <p>Name: @name</p>
+    <p>Email: @email</p>
+    <p>Age: @age</p>
+</div>
+
+<h2>Cấu trúc if</h2>
+@{
+    var total = 1234;
+    bool isActive = true;
+}
+@{
+    if (total > 10000)
+    {
+        <p>Lương cao</p>
+    }
+    else
+    {
+        <p>Lương thấp</p>
+    }
+    if (isActive == true)
+    {   
+        <p class="alert alert-success">Hoạt động</p>
+    }
+    else
+    {
+        <p class="alert alert-danger">Tạm khóa</p>
+    }
+
+}
+<h2>Cấu trúc lập</h2>
+@{
+    for (int i = 0; i < 10; i++)
+     if(isActive==true)
+    {
+        <span class="btn btn-danger">@i</span>
+    }
+    else
+    {
+        <span class="btn btn-success">@i</span>
+    }
+}
