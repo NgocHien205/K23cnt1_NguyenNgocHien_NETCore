@@ -1,0 +1,24 @@
+﻿@model nnh_lesson02.Models.Account
+@{
+    ViewData["Title"] = "Thông tin cá nhân";
+}
+
+<h2>Thông tin cá nhân</h2>
+<div class="row">
+    <div class="col-md-4">
+        <img src="@Model.avatar" alt="Avatar" style="width:100%" />
+    </div>
+    <div class="col-md-8">
+        <h2>Họ tên: @Model.Name</h2>
+        <h3>Email: @Model.Email</h3>
+        <h3>Phone: @Model.Phone</h3>
+        <h3>Địa chỉ: @Model.Address</h3>
+        <h3>Bio: @Model.Bio</h3>
+        <h3>Giới tính: @(Model.Gender == 1 ? "Nam" : "Nữ")</h3>
+        <h3>Sinh nhật: @Model.Birthday.ToString("dd/MM/yyyy")</h3>
+
+        <p>
+            <a asp-controller="Account" asp-action="Index" class="btn btn-sm btn-danger">Quay lại danh sách</a>
+        </p>
+    </div>
+</div>

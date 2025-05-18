@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnh_lesson02\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnh_lesson02\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnh_lesson02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnh_lesson02\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|solutionrelative:views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnh_lesson02\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|solutionrelative:views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnh_lesson02\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D59EDB33-FFF2-4528-B91B-A406173864A7}|nnh_lesson02.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-17T08:19:11.315Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T10:11:20.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-17T10:07:39.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-17T09:56:39.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Account.cs",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Models\\Account.cs",
+              "RelativeToolTip": "Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:42:00.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnh_lesson02\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwDoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:18:34.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
