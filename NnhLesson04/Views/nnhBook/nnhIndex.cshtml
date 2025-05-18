@@ -1,0 +1,33 @@
+﻿@model IEnumerable<NnhLesson04.Models.nnhBook>
+@{
+    ViewData["Title"] = "Danh sach Book";
+}
+
+<h1>Thong tin cac cuon sach</h1>
+<a href="/nnhBook/nnhCreate" class="btn btn-primary">Them moi</a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>BookId</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(nnhBook nnhItem in Model)
+        {
+            <tr>
+                <td>@nnhItem.nnhId</td>
+                <td>@nnhItem.nnhTitle</td>
+                <td>@nnhItem.nnhDescription</td>
+                <td>
+                    <img src="@nnhItem.nnhImage" alt="@nnhItem.nnhTitle" style="width:100px; height:150px"/>
+                </td>
+                <td>@nnhItem.nnhPrice</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/nnhBook/nnhCreate" class="btn btn-primary">Them moi</a>

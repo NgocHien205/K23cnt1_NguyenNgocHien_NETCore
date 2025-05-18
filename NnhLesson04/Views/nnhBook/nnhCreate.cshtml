@@ -1,0 +1,33 @@
+﻿@model NnhLesson04.Models.nnhBook
+@{
+    ViewData["Title"] = "Thêm mới sách";
+}
+<h2>@ViewData["Title"] </h2>
+
+<form asp-action="nnhCreateSubmit" method="post">
+    <div>
+        <label>Mã sách</label>
+        <input asp-for="nnhId" class="form-control" />
+    </div>
+    <div>
+        <label>Tên sách</label>
+        <input asp-for="nnhTitle" class="form-control" />
+    </div>
+    <div>
+        <label>Mô tả</label>
+        <textarea asp-for="nnhDescription" class="form-control"></textarea>
+    </div>
+    <div>
+        <label>Đường dẫn ảnh</label>
+        <input asp-for="nnhImage" class="form-control" />
+    </div>
+    <div>
+        <label>Giá</label>
+        <input asp-for="nnhPrice" class="form-control" />
+    </div>
+    <div>
+        <label>Số trang</label>
+        <input asp-for="nnhPage" class="form-control" />
+    </div>
+    <button type="nnhCreateSubmit" class="btn btn-primary">Lưu</button>
+</form>
