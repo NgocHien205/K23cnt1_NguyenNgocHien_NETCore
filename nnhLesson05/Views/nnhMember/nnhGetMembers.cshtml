@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "nnhGetMembers";
+}
+
+<h2>Danh sách thành viên</h2>
+<hr/>
+<a href="CreateGetMembers" class="btn btn-primary">Them Moi</a>
+<table class="table table-bordered">
+    <tr>
+        <th>Mã sinh viên</th>
+        <th>Username</th>
+        <th>Họ và tên</th>
+        <th>Password</th>
+        <th>Email</th>
+    </tr>
+    @foreach (var nnhMembers in ViewBag.nnhMembers)
+    {
+        <tr>
+            <td>@nnhMembers.nnhMemberId</td>
+            <td>@nnhMembers.nnhUserName</td>
+            <td>@nnhMembers.nnhFullName</td>
+            <td>@nnhMembers.nnhPassword</td>
+            <td>@nnhMembers.nnhEmail</td>
+        </tr>
+    }
+</table>

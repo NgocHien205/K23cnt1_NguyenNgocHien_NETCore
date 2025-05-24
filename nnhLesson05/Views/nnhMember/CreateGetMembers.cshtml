@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "CreateGetMembers";
+}
+
+@model nnhLesson05.Models.DataModels.nnhMember
+
+<h2>Thêm mới thành viên</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form action="/nnhMember/CreateGetMembers" method="post">
+            <div class="form-group">
+                <label class="control-label" for="nnhMemberId">Mã thành viên</label>
+                <input class="form-control" type="text" id="nnhMemberId" name="nnhMemberId" readonly />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="nnhUserName">Tên đăng nhập</label>
+                <input class="form-control" type="text" id="nnhUserName" name="nnhUserName" />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="nnhFullName">Họ và tên</label>
+                <input class="form-control" type="text" id="nnhFullName" name="nnhFullName" />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="nnhPassword">Mật khẩu</label>
+                <input class="form-control" type="password" id="nnhPassword" name="nnhPassword" />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="nnhEmail">Email</label>
+                <input class="form-control" type="email" id="nnhEmail" name="nnhEmail" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-primary" />
+            </div>
+
+            <input name="__RequestVerificationToken" type="hidden" value="" />
+        </form>
+
+    </div>
+</div>
