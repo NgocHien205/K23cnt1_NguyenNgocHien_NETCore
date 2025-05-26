@@ -1,0 +1,59 @@
+﻿@model nnhLesson06.Models.DataModels.NnhEmployee
+
+@{
+    ViewData["Title"] = "Thêm nhân viên mới";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="NnhCreateSubmit" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label asp-for="NnhId" class="control-label"></label>
+        <input asp-for="NnhId" class="form-control" />
+        <span asp-validation-for="NnhId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NnhName" class="control-label"></label>
+        <input asp-for="NnhName" class="form-control" />
+        <span asp-validation-for="NnhName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NnhBirthDay" class="control-label"></label>
+        <input asp-for="NnhBirthDay" class="form-control" type="date" />
+        <span asp-validation-for="NnhBirthDay" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NnhEmail" class="control-label"></label>
+        <input asp-for="NnhEmail" class="form-control" type="email" />
+        <span asp-validation-for="NnhEmail" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NnhPhone" class="control-label"></label>
+        <input asp-for="NnhPhone" class="form-control" />
+        <span asp-validation-for="NnhPhone" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NnhSalary" class="control-label"></label>
+        <input asp-for="NnhSalary" class="form-control" type="number" step="any" />
+        <span asp-validation-for="NnhSalary" class="text-danger"></span>
+    </div>
+
+    <div class="form-group form-check">
+        <input asp-for="NnhStatus" class="form-check-input" />
+        <label asp-for="NnhStatus" class="form-check-label"></label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="NnhIndex" class="btn btn-secondary">Quay lại</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
