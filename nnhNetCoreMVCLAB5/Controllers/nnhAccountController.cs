@@ -21,7 +21,7 @@ namespace nnhNetCoreMVCLAB5.Controllers
                 NnhBirthday = new DateTime(2005, 06, 13),
                 NnhGender = "Nam",
                 NnhPassword = "12345678",
-                NnhFacebook = "https://facebook.com/vana"
+                NnhFacebook = "https://www.facebook.com/nguyen.ngoc.hien.967738"
             },
             new nnhAccount
             {
