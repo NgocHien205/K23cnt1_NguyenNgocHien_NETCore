@@ -1,93 +1,179 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using nnhNetCoreMVCLAB5.Models;
+using System.Security.Principal;
 
 namespace nnhNetCoreMVCLAB5.Controllers
 {
     public class nnhAccountController : Controller
     {
-        public static List<nnhAccount> accounts = new List<nnhAccount>();
-        // GET: nnhAccountController
+        // Danh sách tài khoản tĩnh, dùng tạm thay cho database
+        private static List<nnhAccount> accounts = new List<nnhAccount>()
+        {
+            new nnhAccount
+            {
+                NnhId = 1,
+                NnhFullName = "Nguyễn Ngọc Hiến",
+                NnhEmail = "ngochien@gmail.com",
+                NnhPhone = "0336076551",
+                NnhAddress = "Thái Bình",
+                NnhAvatar = "avatar1.png",
+                NnhBirthday = new DateTime(2005, 06, 13),
+                NnhGender = "Nam",
+                NnhPassword = "12345678",
+                NnhFacebook = "https://facebook.com/vana"
+            },
+            new nnhAccount
+            {
+                NnhId = 2,
+                NnhFullName = "Trần Thị B",
+                NnhEmail = "thib@example.com",
+                NnhPhone = "0981234567",
+                NnhAddress = "Đà Nẵng",
+                NnhAvatar = "avatar2.png",
+                NnhBirthday = new DateTime(1995, 10, 10),
+                NnhGender = "Nữ",
+                NnhPassword = "password2",
+                NnhFacebook = "https://facebook.com/thib"
+            },
+            new nnhAccount
+            {
+                NnhId = 3,
+                NnhFullName = "Lê Văn C",
+                NnhEmail = "vanc@example.com",
+                NnhPhone = "0977654321",
+                NnhAddress = "TP.HCM",
+                NnhAvatar = "avatar3.png",
+                NnhBirthday = new DateTime(1988, 3, 15),
+                NnhGender = "Nam",
+                NnhPassword = "password3",
+                NnhFacebook = "https://facebook.com/vanc"
+            }
+        };
+
+        // GET: NnhAccountController
         public ActionResult nnhIndex()
         {
-            List<nnhAccount > accounts = new List<nnhAccount>();
-            return View(accounts);  
+            return View(accounts);
         }
 
-        // GET: nnhAccountController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: nnhAccountController/Create
+        // GET: Hiển thị form tạo mới tài khoản
         public ActionResult nnhCreate()
         {
-            nnhAccount model = new nnhAccount();
-            return View(model);
+            nnhAccount models = new nnhAccount(); // Tạo một model rỗng
+            return View(models);
         }
 
-        // POST: nnhAccountController/Create
+        // POST: Xử lý dữ liệu khi submit form tạo mới tài khoản
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(nnhAccount model)
+        public ActionResult nnhCreate(nnhAccount models)
         {
             try
             {
-                // Tự động sinh mã nếu cần
-                if (model.NnhId == 0)
+                // Sinh mã ID tự động nếu chưa có
+                if (models.NnhId == 0)
                 {
-                    model.NnhId = accounts.Max(e => e.NnhId) + 1;
+                    if (accounts.Count > 0)
+                    {
+                        models.NnhId = accounts.Max(e => e.NnhId) + 1;
+                    }
+                    else
+                    {
+                        models.NnhId = 1;
+                    }
                 }
-                accounts.Add(model);
+
+                // Thêm model vào danh sách
+                accounts.Add(models);
+
+                // Chuyển về trang danh sách sau khi thêm thành công
                 return RedirectToAction(nameof(nnhIndex));
             }
             catch
             {
-                return View();
+                // Nếu có lỗi, hiển thị lại form với dữ liệu đã nhập
+                return View(models);
             }
         }
 
-        // GET: nnhAccountController/Edit/5
-        public ActionResult Edit(int id)
+
+        // GET: Edit
+        public ActionResult nnhEdit(int id)
         {
-            return View();
+            var account = accounts.FirstOrDefault(a => a.NnhId == id);
+            if (account == null)
+            {
+                return NotFound();
+            }
+            return View(account);
         }
 
-        // POST: nnhAccountController/Edit/5
+        // POST: Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult nnhEdit(int id, nnhAccount updatedAccount)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var account = accounts.FirstOrDefault(a => a.NnhId == id);
+                if (account == null)
+                    return NotFound();
+
+                // Cập nhật thông tin
+                account.NnhFullName = updatedAccount.NnhFullName;
+                account.NnhEmail = updatedAccount.NnhEmail;
+                account.NnhPhone = updatedAccount.NnhPhone;
+                account.NnhAddress = updatedAccount.NnhAddress;
+                account.NnhAvatar = updatedAccount.NnhAvatar;
+                account.NnhBirthday = updatedAccount.NnhBirthday;
+                account.NnhGender = updatedAccount.NnhGender;
+                account.NnhPassword = updatedAccount.NnhPassword;
+                account.NnhFacebook = updatedAccount.NnhFacebook;
+
+                return RedirectToAction(nameof(nnhIndex));
             }
             catch
             {
-                return View();
+                return View(updatedAccount);
             }
         }
 
-        // GET: nnhAccountController/Delete/5
-        public ActionResult Delete(int id)
+
+        public ActionResult nnhDetails(int id)
         {
-            return View();
+            var account = accounts.FirstOrDefault(a => a.NnhId == id);
+            if (account == null)
+            {
+                return NotFound();
+            }
+            return View(account);
         }
 
-        // POST: nnhAccountController/Delete/5
-        [HttpPost]
+
+        // GET: Delete
+        public ActionResult nnhDelete(int id)
+        {
+            var account = accounts.FirstOrDefault(a => a.NnhId == id);
+            if (account == null)
+            {
+                return NotFound();
+            }
+            return View(account);
+        }
+
+        // POST: Delete
+        [HttpPost, ActionName("nnhDelete")]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult DeleteConfirmed(int id)
         {
-            try
+            var account = accounts.FirstOrDefault(a => a.NnhId == id);
+            if (account != null)
             {
-                return RedirectToAction(nameof(Index));
+                accounts.Remove(account);
             }
-            catch
-            {
-                return View();
-            }
+            return RedirectToAction(nameof(nnhIndex));
         }
+    
     }
 }

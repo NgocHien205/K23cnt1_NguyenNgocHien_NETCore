@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|solutionrelative:controllers\\nnhaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhnetcoremvclab5\\views\\nnhaccount\\nnhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|solutionrelative:views\\nnhaccount\\nnhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhnetcoremvclab5\\views\\nnhaccount\\nnhdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|solutionrelative:views\\nnhaccount\\nnhdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhnetcoremvclab5\\views\\nnhaccount\\nnhdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|solutionrelative:views\\nnhaccount\\nnhdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhnetcoremvclab5\\views\\nnhaccount\\nnhedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|solutionrelative:views\\nnhaccount\\nnhedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhnetcoremvclab5\\views\\shared\\_nnhlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|solutionrelative:views\\shared\\_nnhlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhnetcoremvclab5\\views\\nnhaccount\\nnhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,12 +35,8 @@
       "RelativeMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|solutionrelative:controllers\\nnhhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhnetcoremvclab5\\views\\shared\\_nnhlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|solutionrelative:views\\shared\\_nnhlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhnetcoremvclab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhnetcoremvclab5\\views\\nnhaccount\\nnhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|solutionrelative:views\\nnhaccount\\nnhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7A6AB68-AF91-4C05-8DAD-692AEDB7FCD6}|nnhNetCoreMVCLAB5.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhnetcoremvclab5\\views\\nnhhome\\nnhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,85 +62,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "nnhCreate.cshtml",
-              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhCreate.cshtml",
-              "RelativeDocumentMoniker": "Views\\nnhAccount\\nnhCreate.cshtml",
-              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhCreate.cshtml",
-              "RelativeToolTip": "Views\\nnhAccount\\nnhCreate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-09T03:39:05.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "nnhIndex.cshtml",
-              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhIndex.cshtml",
-              "RelativeDocumentMoniker": "Views\\nnhAccount\\nnhIndex.cshtml",
-              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhIndex.cshtml",
-              "RelativeToolTip": "Views\\nnhAccount\\nnhIndex.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-09T02:18:20.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "nnhAccountController.cs",
               "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Controllers\\nnhAccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\nnhAccountController.cs",
-              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Controllers\\nnhAccountController.cs*",
-              "RelativeToolTip": "Controllers\\nnhAccountController.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAgAAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Controllers\\nnhAccountController.cs",
+              "RelativeToolTip": "Controllers\\nnhAccountController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T02:03:10.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "nnhAccount.cs",
-              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Models\\nnhAccount.cs",
-              "RelativeDocumentMoniker": "Models\\nnhAccount.cs",
-              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Models\\nnhAccount.cs",
-              "RelativeToolTip": "Models\\nnhAccount.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T01:44:04.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "_nnhLayout.cshtml",
               "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\Shared\\_nnhLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_nnhLayout.cshtml",
               "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\Shared\\_nnhLayout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_nnhLayout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAABuAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-09T01:33:41.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "nnhIndex.cshtml",
-              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhHome\\nnhIndex.cshtml",
-              "RelativeDocumentMoniker": "Views\\nnhHome\\nnhIndex.cshtml",
-              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhHome\\nnhIndex.cshtml",
-              "RelativeToolTip": "Views\\nnhHome\\nnhIndex.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "nnhCreate.cshtml",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhCreate.cshtml",
+              "RelativeDocumentMoniker": "Views\\nnhAccount\\nnhCreate.cshtml",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhCreate.cshtml",
+              "RelativeToolTip": "Views\\nnhAccount\\nnhCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-09T01:57:28.841Z",
+              "WhenOpened": "2025-06-09T05:50:56.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "nnhDelete.cshtml",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhDelete.cshtml",
+              "RelativeDocumentMoniker": "Views\\nnhAccount\\nnhDelete.cshtml",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhDelete.cshtml",
+              "RelativeToolTip": "Views\\nnhAccount\\nnhDelete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T06:08:34.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "nnhEdit.cshtml",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\nnhAccount\\nnhEdit.cshtml",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhEdit.cshtml",
+              "RelativeToolTip": "Views\\nnhAccount\\nnhEdit.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T06:02:23.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "nnhIndex.cshtml",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\nnhAccount\\nnhIndex.cshtml",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhIndex.cshtml",
+              "RelativeToolTip": "Views\\nnhAccount\\nnhIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T02:18:20.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "nnhDetails.cshtml",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\nnhAccount\\nnhDetails.cshtml",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhAccount\\nnhDetails.cshtml",
+              "RelativeToolTip": "Views\\nnhAccount\\nnhDetails.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T06:07:53.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "nnhHomeController.cs",
               "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Controllers\\nnhHomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\nnhHomeController.cs",
@@ -146,19 +167,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBoAAAA7AAAAAAAAAA==",
+              "Title": "nnhAccount.cs",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Models\\nnhAccount.cs",
+              "RelativeDocumentMoniker": "Models\\nnhAccount.cs",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Models\\nnhAccount.cs",
+              "RelativeToolTip": "Models\\nnhAccount.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T01:33:12.348Z",
+              "WhenOpened": "2025-06-09T01:44:04.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "nnhIndex.cshtml",
+              "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhHome\\nnhIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\nnhHome\\nnhIndex.cshtml",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhHome\\nnhIndex.cshtml",
+              "RelativeToolTip": "Views\\nnhHome\\nnhIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T01:57:28.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhNetCoreMVCLAB5\\Views\\nnhHome\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\nnhHome\\Privacy.cshtml",

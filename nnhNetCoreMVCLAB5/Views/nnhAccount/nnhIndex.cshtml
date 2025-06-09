@@ -5,86 +5,60 @@
     Layout = "~/Views/Shared/_nnhLayout.cshtml";
 }
 
-<h1>Bảng danh sách thông tin sinh viên </h1>
+<div class="container mt-4">
+    <h1 class="mb-4 text-primary">Bảng danh sách thông tin sinh viên</h1>
 
-<p>
-    <a asp-action="nnhCreate">Thêm Mới</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.NnhId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NnhFullName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NnhEmail)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NnhPhone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NnhAddress)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NnhAvatar)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NnhBirthday)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NnhGender)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NnhPassword)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NnhFacebook)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NnhId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NnhFullName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NnhEmail)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NnhPhone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NnhAddress)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NnhAvatar)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NnhBirthday)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NnhGender)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NnhPassword)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NnhFacebook)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <p>
+        <a asp-action="nnhCreate" class="btn btn-success mb-3">➕ Thêm Mới</a>
+    </p>
+
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.NnhId)</th>
+                <th>@Html.DisplayNameFor(model => model.NnhFullName)</th>
+                <th>@Html.DisplayNameFor(model => model.NnhEmail)</th>
+                <th>@Html.DisplayNameFor(model => model.NnhPhone)</th>
+                <th>@Html.DisplayNameFor(model => model.NnhAddress)</th>
+                <th>@Html.DisplayNameFor(model => model.NnhAvatar)</th>
+                <th>@Html.DisplayNameFor(model => model.NnhBirthday)</th>
+                <th>@Html.DisplayNameFor(model => model.NnhGender)</th>
+                <th>@Html.DisplayNameFor(model => model.NnhPassword)</th>
+                <th>@Html.DisplayNameFor(model => model.NnhFacebook)</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.NnhId)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NnhFullName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NnhEmail)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NnhPhone)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NnhAddress)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NnhAvatar)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NnhBirthday)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NnhGender)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NnhPassword)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NnhFacebook)</td>
+                    <td>
+                        <div class="d-flex flex-column gap-2">
+                            <a asp-action="nnhEdit" asp-route-id="@item.NnhId" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil-square"></i> Sửa
+                            </a>
+                            <a asp-action="nnhDetails" asp-route-id="@item.NnhId" class="btn btn-sm btn-info">
+                                <i class="bi bi-info-circle"></i> Chi tiết
+                            </a>
+                            <a asp-action="nnhDelete" asp-route-id="@item.NnhId" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i> Xóa
+                            </a>
+                        </div>
+                    </td>
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

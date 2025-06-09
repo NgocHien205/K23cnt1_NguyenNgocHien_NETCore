@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhLesson06\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C288045-8D91-4980-B916-4391B4E02D17}|nnhLesson06.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhlesson06\\controllers\\nnhemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C288045-8D91-4980-B916-4391B4E02D17}|nnhLesson06.csproj|solutionrelative:controllers\\nnhemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C288045-8D91-4980-B916-4391B4E02D17}|nnhLesson06.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhlesson06\\views\\nnhemployee\\nnhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C288045-8D91-4980-B916-4391B4E02D17}|nnhLesson06.csproj|solutionrelative:views\\nnhemployee\\nnhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C288045-8D91-4980-B916-4391B4E02D17}|nnhLesson06.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhlesson06\\views\\nnhemployee\\nnhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C288045-8D91-4980-B916-4391B4E02D17}|nnhLesson06.csproj|solutionrelative:views\\nnhemployee\\nnhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C288045-8D91-4980-B916-4391B4E02D17}|nnhLesson06.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhlesson06\\controllers\\nnhemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C288045-8D91-4980-B916-4391B4E02D17}|nnhLesson06.csproj|solutionrelative:controllers\\nnhemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C288045-8D91-4980-B916-4391B4E02D17}|nnhLesson06.csproj|c:\\net.core\\k23cnt1_nguyenngochien_netcoreleanning\\k23cnt1_nguyenngochien_netcore\\nnhlesson06\\controllers\\nnhhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NnhIndex.cshtml",
               "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhLesson06\\Views\\nnhEmployee\\NnhIndex.cshtml",
               "RelativeDocumentMoniker": "Views\\nnhEmployee\\NnhIndex.cshtml",
@@ -50,18 +50,17 @@
               "RelativeToolTip": "Views\\nnhEmployee\\NnhIndex.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T03:45:06.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T03:45:06.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NnhCreate.cshtml",
               "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhLesson06\\Views\\nnhEmployee\\NnhCreate.cshtml",
               "RelativeDocumentMoniker": "Views\\nnhEmployee\\NnhCreate.cshtml",
               "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhLesson06\\Views\\nnhEmployee\\NnhCreate.cshtml",
               "RelativeToolTip": "Views\\nnhEmployee\\NnhCreate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-26T02:55:46.806Z",
               "EditorCaption": ""
@@ -76,18 +75,17 @@
               "RelativeToolTip": "Controllers\\nnhHomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T02:52:24.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T02:52:24.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "nnhEmployeeController.cs",
               "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhLesson06\\Controllers\\nnhEmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\nnhEmployeeController.cs",
               "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhLesson06\\Controllers\\nnhEmployeeController.cs",
               "RelativeToolTip": "Controllers\\nnhEmployeeController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswBUAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T01:35:41.629Z",
               "EditorCaption": ""
@@ -102,8 +100,7 @@
               "RelativeToolTip": "Models\\DataModels\\nnhEmployee.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:33:14.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:33:14.802Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "Views\\Shared\\_nnhLayout.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T01:22:32.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:22:32.916Z"
             }
           ]
         }

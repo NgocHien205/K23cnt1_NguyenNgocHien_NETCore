@@ -1,0 +1,61 @@
+﻿@model nnhNetCoreMVCLAB5.Models.nnhAccount
+
+@{
+    ViewData["Title"] = "Xóa tài khoản";
+    Layout = "~/Views/Shared/_nnhLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow rounded-4 border-danger">
+        <div class="card-header bg-danger text-white">
+            <h3 class="mb-0">Xác nhận xóa tài khoản</h3>
+        </div>
+        <div class="card-body">
+            <p class="text-danger fw-bold">⚠️ Bạn có chắc chắn muốn xóa tài khoản sau không?</p>
+            <dl class="row">
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NnhFullName)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.NnhFullName)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NnhEmail)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.NnhEmail)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NnhPhone)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.NnhPhone)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NnhAddress)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.NnhAddress)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NnhBirthday)</dt>
+                <dd class="col-sm-9">@Model.NnhBirthday.ToString("dd/MM/yyyy")</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NnhGender)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.NnhGender)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NnhFacebook)</dt>
+                <dd class="col-sm-9">
+                    <a href="@Model.NnhFacebook" target="_blank">@Model.NnhFacebook</a>
+                </dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NnhAvatar)</dt>
+                <dd class="col-sm-9">
+                    @if (!string.IsNullOrEmpty(Model.NnhAvatar))
+                    {
+                        <img src="@Model.NnhAvatar" alt="Avatar" class="img-thumbnail" style="max-width: 100px;" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">Chưa có ảnh</span>
+                    }
+                </dd>
+            </dl>
+
+            <form asp-action="nnhDelete" method="post">
+                <input type="hidden" asp-for="NnhId" />
+                <div class="d-flex justify-content-between">
+                    <a asp-action="nnhIndex" class="btn btn-secondary">❌ Hủy</a>
+                    <input type="submit" value="🗑️ Xác nhận xóa" class="btn btn-danger" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,89 @@
+﻿@model nnhNetCoreMVCLAB5.Models.nnhAccount
+
+@{
+    ViewData["Title"] = "Chỉnh sửa thông tin tài khoản";
+    Layout = "~/Views/Shared/_nnhLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow rounded-4">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">Chỉnh sửa thông tin</h3>
+        </div>
+        <div class="card-body">
+            <form asp-action="nnhEdit">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="NnhId" class="form-label"></label>
+                    <input asp-for="NnhId" class="form-control" readonly />
+                    <span asp-validation-for="NnhId" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NnhFullName" class="form-label"></label>
+                    <input asp-for="NnhFullName" class="form-control" />
+                    <span asp-validation-for="NnhFullName" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NnhEmail" class="form-label"></label>
+                    <input asp-for="NnhEmail" class="form-control" />
+                    <span asp-validation-for="NnhEmail" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NnhPhone" class="form-label"></label>
+                    <input asp-for="NnhPhone" class="form-control" />
+                    <span asp-validation-for="NnhPhone" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NnhAddress" class="form-label"></label>
+                    <input asp-for="NnhAddress" class="form-control" />
+                    <span asp-validation-for="NnhAddress" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NnhAvatar" class="form-label"></label>
+                    <input asp-for="NnhAvatar" class="form-control" />
+                    <span asp-validation-for="NnhAvatar" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NnhBirthday" class="form-label"></label>
+                    <input asp-for="NnhBirthday" class="form-control" type="date" />
+                    <span asp-validation-for="NnhBirthday" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NnhGender" class="form-label"></label>
+                    <select asp-for="NnhGender" class="form-select">
+                        <option value="">-- Chọn giới tính --</option>
+                        <option value="Nam">Nam</option>
+                        <option value="Nữ">Nữ</option>
+                        <option value="Khác">Khác</option>
+                    </select>
+                    <span asp-validation-for="NnhGender" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NnhPassword" class="form-label"></label>
+                    <input asp-for="NnhPassword" class="form-control" type="password" />
+                    <span asp-validation-for="NnhPassword" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NnhFacebook" class="form-label"></label>
+                    <input asp-for="NnhFacebook" class="form-control" />
+                    <span asp-validation-for="NnhFacebook" class="text-danger small"></span>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <a asp-action="nnhIndex" class="btn btn-secondary">Quay lại</a>
+                    <button type="submit" class="btn btn-success">Lưu thay đổi</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

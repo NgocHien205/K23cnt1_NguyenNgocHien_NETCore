@@ -32,6 +32,18 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncbm5oQWNjb3VudFxubmhDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/NET.core/K23cnt1_NguyenNgocHien_NETCoreLeanning/K23cnt1_NguyenNgocHien_NETCore/nnhNetCoreMVCLAB5/Views/nnhAccount/nnhDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncbm5oQWNjb3VudFxubmhEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/NET.core/K23cnt1_NguyenNgocHien_NETCoreLeanning/K23cnt1_NguyenNgocHien_NETCore/nnhNetCoreMVCLAB5/Views/nnhAccount/nnhDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncbm5oQWNjb3VudFxubmhEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/NET.core/K23cnt1_NguyenNgocHien_NETCoreLeanning/K23cnt1_NguyenNgocHien_NETCore/nnhNetCoreMVCLAB5/Views/nnhAccount/nnhEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncbm5oQWNjb3VudFxubmhFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/NET.core/K23cnt1_NguyenNgocHien_NETCoreLeanning/K23cnt1_NguyenNgocHien_NETCore/nnhNetCoreMVCLAB5/Views/nnhAccount/nnhIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncbm5oQWNjb3VudFxubmhJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

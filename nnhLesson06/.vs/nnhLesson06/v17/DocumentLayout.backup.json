@@ -50,8 +50,7 @@
               "RelativeToolTip": "Views\\nnhEmployee\\NnhIndex.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T03:45:06.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T03:45:06.863Z"
             },
             {
               "$type": "Document",
@@ -59,9 +58,9 @@
               "Title": "NnhCreate.cshtml",
               "DocumentMoniker": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhLesson06\\Views\\nnhEmployee\\NnhCreate.cshtml",
               "RelativeDocumentMoniker": "Views\\nnhEmployee\\NnhCreate.cshtml",
-              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhLesson06\\Views\\nnhEmployee\\NnhCreate.cshtml*",
-              "RelativeToolTip": "Views\\nnhEmployee\\NnhCreate.cshtml*",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\NET.core\\K23cnt1_NguyenNgocHien_NETCoreLeanning\\K23cnt1_NguyenNgocHien_NETCore\\nnhLesson06\\Views\\nnhEmployee\\NnhCreate.cshtml",
+              "RelativeToolTip": "Views\\nnhEmployee\\NnhCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-26T02:55:46.806Z",
               "EditorCaption": ""
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Controllers\\nnhHomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T02:52:24.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T02:52:24.543Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Controllers\\nnhEmployeeController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAswBUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:35:41.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:35:41.629Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Models\\DataModels\\nnhEmployee.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:33:14.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:33:14.802Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "Views\\Shared\\_nnhLayout.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T01:22:32.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T01:22:32.916Z"
             }
           ]
         }

@@ -81,12 +81,12 @@
 
             <div class="form-group mt-3">
                 <input type="submit" value="Tạo mới" class="btn btn-success" />
-                <a asp-action="nnhIndex" class="btn btn-secondary">Hủy</a>
+                <a asp-action="nnhIndex" class="btn btn-secondary"> Back to List</a>
             </div>
         </form>
     </div>
 </div>
 
 @section Scripts {
-    @await Html.PartialAsync("_ValidationScriptsPartial")
+    @{await Html.PartialAsync("_ValidationScriptsPartial");}
 }

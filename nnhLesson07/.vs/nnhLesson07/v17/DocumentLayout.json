@@ -63,8 +63,7 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T01:39:08.38Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Models\\nnhEmployee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T01:48:06.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T01:48:06.638Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Views\\nnhHome\\nnhAbout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T01:35:15.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T01:35:15.247Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "Views\\Shared\\_nnhNavbar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T01:30:10.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T01:30:10.856Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "Controllers\\nnhHomeController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAA1wBkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T01:34:10.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T01:34:10.838Z"
             },
             {
               "$type": "Document",
@@ -145,8 +140,7 @@
               "RelativeToolTip": "Views\\nnhEmployee\\nnhIndex.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T01:56:23.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T01:56:23.333Z"
             },
             {
               "$type": "Document",
@@ -158,8 +152,7 @@
               "RelativeToolTip": "Views\\Shared\\_nnhLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T01:29:06.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T01:29:06.787Z"
             },
             {
               "$type": "Document",
@@ -171,8 +164,7 @@
               "RelativeToolTip": "Views\\nnhHome\\nnhIndex.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T01:42:56.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T01:42:56.922Z"
             },
             {
               "$type": "Document",
@@ -184,8 +176,7 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T01:28:56.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T01:28:56.975Z"
             }
           ]
         }
