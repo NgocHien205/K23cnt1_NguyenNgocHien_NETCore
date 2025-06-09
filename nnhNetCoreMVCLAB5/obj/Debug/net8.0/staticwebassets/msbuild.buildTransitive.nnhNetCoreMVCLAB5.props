@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\nnhNetCoreMVCLAB5.props" />
+</Project>

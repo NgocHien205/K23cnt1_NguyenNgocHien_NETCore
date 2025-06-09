@@ -1,0 +1,92 @@
+﻿@model nnhNetCoreMVCLAB5.Models.nnhAccount
+
+@{
+    ViewData["Title"] = "nnhCreate";
+    Layout = "~/Views/Shared/_nnhLayout.cshtml";
+}
+
+<h1 class="text-primary">Tạo tài khoản mới</h1>
+
+<h4>nnhAccount</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="nnhCreate" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="NnhId" class="control-label"></label>
+                <input asp-for="NnhId" class="form-control" />
+                <span asp-validation-for="NnhId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NnhFullName" class="control-label"></label>
+                <input asp-for="NnhFullName" class="form-control" />
+                <span asp-validation-for="NnhFullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NnhEmail" class="control-label"></label>
+                <input asp-for="NnhEmail" class="form-control" />
+                <span asp-validation-for="NnhEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NnhPhone" class="control-label"></label>
+                <input asp-for="NnhPhone" class="form-control" />
+                <span asp-validation-for="NnhPhone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NnhAddress" class="control-label"></label>
+                <input asp-for="NnhAddress" class="form-control" />
+                <span asp-validation-for="NnhAddress" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NnhAvatar" class="control-label"></label>
+                <input asp-for="NnhAvatar" class="form-control" />
+                <span asp-validation-for="NnhAvatar" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NnhBirthday" class="control-label"></label>
+                <input asp-for="NnhBirthday" type="date" class="form-control" />
+                <span asp-validation-for="NnhBirthday" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NnhGender" class="control-label"></label>
+                <select asp-for="NnhGender" class="form-control">
+                    <option value="">-- Chọn giới tính --</option>
+                    <option>Nam</option>
+                    <option>Nữ</option>
+                    <option>Khác</option>
+                </select>
+                <span asp-validation-for="NnhGender" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NnhPassword" class="control-label"></label>
+                <input asp-for="NnhPassword" type="password" class="form-control" />
+                <span asp-validation-for="NnhPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NnhFacebook" class="control-label"></label>
+                <input asp-for="NnhFacebook" class="form-control" />
+                <span asp-validation-for="NnhFacebook" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Tạo mới" class="btn btn-success" />
+                <a asp-action="nnhIndex" class="btn btn-secondary">Hủy</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
