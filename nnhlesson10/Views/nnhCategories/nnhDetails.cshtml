@@ -1,0 +1,33 @@
+﻿@model nnhlesson09v2.Models.Category
+
+@{
+    ViewData["Title"] = "Xem Thông tin chi tiết";
+    Layout = "~/Views/Shared/_nnhLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h2>@ViewData["Title"]</h2>
+            </div>
+
+            <div class="card-group my-1 px-3 pt-2">
+                <label asp-for="CategoryId" class="form-label"></label>
+                <input asp-for="CategoryId" class="form-control" readonly />
+            </div>
+
+            <div class="card-body">
+                <div class="form-group my-1">
+                    <label asp-for="CategoryName" class="form-label"></label>
+                    <input asp-for="CategoryName" class="form-control" readonly />
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <a asp-action="nnhEdit" asp-route-nnhId="@Model.CategoryId" class="btn btn-primary">Sửa</a>
+                <a asp-action="nnhIndex" class="btn btn-secondary">Quay lại danh sách</a>
+            </div>
+        </div>
+    </div>
+</div>

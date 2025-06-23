@@ -1,0 +1,43 @@
+﻿@model nnhlesson09v2.Models.Category
+
+@{
+    ViewData["Title"] = "Sửa Thông tin ";
+    Layout = "~/Views/Shared/_nnhLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="nnhEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="CategoryId" />
+
+            <div class="card">
+                <div class="card-header">
+                    <h1>@ViewData["Title"] </h1>
+                </div>
+                <div class="card-group my-1">
+                    <label asp-for="CategoryId" class="control-label mb-1"></label>
+                    <input asp-for="CategoryId" class="form-control" readonly />
+                </div>
+                <div class="card-body">
+                    <div class="form-group my-1">
+                        <label asp-for="CategoryName" class="control-label mb-1"></label>
+                        <input asp-for="CategoryName" class="form-control" />
+                        <span asp-validation-for="CategoryName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <input type="submit" value="Lưu" class="btn btn-primary" />
+                    <a asp-action="nnhIndex" class="btn btn-danger">Back to List</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
