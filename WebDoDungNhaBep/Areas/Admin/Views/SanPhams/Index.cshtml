@@ -1,0 +1,70 @@
+﻿@model IEnumerable<WebDoDungNhaBep.Models.SanPham>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+    Layout = "~/Areas/Admin/Views/Share/_LayoutAdmin.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="fw-bold text-primary">📦 Danh sách sản phẩm</h2>
+        <a asp-action="Create" class="btn btn-success">
+            <i class="bi bi-plus-circle"></i> Thêm sản phẩm
+        </a>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body p-0">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th>Hình ảnh</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Mô tả</th>
+                        <th>Danh mục</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="text-center">
+                                @if (!string.IsNullOrEmpty(item.HinhAnh))
+                                {
+                                    <img src="@item.HinhAnh" alt="@item.TenSanPham" width="80" height="80" class="rounded shadow-sm" />
+                                }
+                                else
+                                {
+                                    <span class="text-muted">No image</span>
+                                }
+                            </td>
+                            <td>@item.TenSanPham</td>
+                            <td class="text-danger fw-bold">@item.Gia.ToString("N0") ₫</td>
+                            <td>@item.SoLuong</td>
+                            <td>
+                                <span class="d-inline-block text-truncate" style="max-width:200px;">
+                                    @item.MoTa
+                                </span>
+                            </td>
+                            <td>@item.MaDanhMucNavigation?.TenDanhMuc</td>
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@item.MaSanPham" class="btn btn-sm btn-primary me-1">
+                                    <i class="bi bi-pencil-square"></i> Sửa
+                                </a>
+                                <a asp-action="Details" asp-route-id="@item.MaSanPham" class="btn btn-sm btn-info me-1 text-white">
+                                    <i class="bi bi-eye"></i> Xem
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.MaSanPham" class="btn btn-sm btn-danger">
+                                    <i class="bi bi-trash"></i> Xóa
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
